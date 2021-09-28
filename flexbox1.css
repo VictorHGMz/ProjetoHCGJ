@@ -1,0 +1,31 @@
+/* Flex Box */
+
+.h1{
+    text-align: center;
+}
+hr{
+    border-color: white;
+    margin-bottom: 40px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.flex-container > div{
+    background-color: whitesmoke;
+    width: 100px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
